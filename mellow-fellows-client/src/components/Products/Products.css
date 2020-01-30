@@ -1,0 +1,36 @@
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+}
+
+.child {
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 10px;
+}
+
+.filter {
+    list-style: none;
+    position: fixed;
+    margin-left: 40px;
+    width: 15%;
+    padding-left: 0px;
+}
+
+.listItem {
+    margin: 0 0 8px 0;
+}
+
+.Title {
+    font-weight: bold;
+    color: #393D3F;
+}
+
+.listItem:hover,
+.listItem:active,
+.listItem.active {
+    cursor: pointer;
+    color: #62929E;
+}

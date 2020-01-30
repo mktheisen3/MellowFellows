@@ -1,0 +1,43 @@
+.Product {
+    padding: 10px;
+    margin: 10px;
+    height:350px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.ProductImage {
+    width: 100%;
+    display: block;
+}
+
+.ProductDetails {
+    display: flex;
+    color: #393D3F;
+}
+
+.ProductName {
+    text-align: left;
+    flex: 1;
+    
+}
+
+.ProductPrice {
+    text-align: right;
+    flex: 1;
+    font-weight: bold;
+}
+
+.Product:hover,
+.Product:active,
+.Product.active {
+    cursor: pointer;
+}
+
+.Product:hover > .ProductDetails { color: #62929E; }
+
+/* .ProductImage:hover,
+.ProductImage:active,
+.ProductImage.active {
+    filter: blur(2px);
+} */

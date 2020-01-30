@@ -1,0 +1,25 @@
+.Auth {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.Title {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #393D3F;
+}
+
+.InputField {
+    border-width: 0px;
+    border: none;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}

@@ -1,0 +1,22 @@
+.Image {
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+}
+
+.ProductInfo {
+    color: #393D3F;
+    text-align: left;
+    flex: 2;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.ProductTitle {
+    font-size: 150%;
+    margin-left: 10px;
+}
+
+.Content {
+    display: flex;
+}
